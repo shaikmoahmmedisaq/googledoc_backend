@@ -1,4 +1,4 @@
-_pycache__/
+core_app/_pycache__/
 
 
 venv
@@ -7,3 +7,58 @@ venv
 .idea
 
 .db.sqlite3
+
+
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Django migration files
+*.log
+*.sqlite3
+
+# Environment variables
+.env
+.env.local
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+
+# Media files
+/media
+
+# Static files
+/staticfiles_build/
+# /staticfiles_build/static/admin/css/
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# Pytest
+.cache
+*.cover
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Build directories
+build/
+dist/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
