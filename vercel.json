@@ -13,7 +13,7 @@
   ],
   "routes": [
     {
-      "src": "/staticfiles_build/static/(.*)",
+      "src": "/static/(.*)",
       "dest": "/staticfiles_build/static/admin/$1"
     },
     {
