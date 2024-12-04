@@ -38,7 +38,7 @@ env/
 /media
 
 # Static files
-/staticfiles_build/
+# /staticfiles_build/
 # /staticfiles_build/static/admin/css/
 
 # Coverage reports
